@@ -35,7 +35,7 @@ let listDriverPlayers = listPlayers.map((driver)=>{
     if ( driver.età < 18){
         return driver.name + driver.cognome + " non può guidare"
     }
-    else if ( driver.età > 18){
+    else if ( driver.età >= 18){
         return driver.name + driver.cognome + " può guidare"
     }
     
